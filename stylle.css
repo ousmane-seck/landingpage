@@ -1,0 +1,194 @@
+/* Appliquer une couleur de fond et une couleur de police générale */
+body {
+  background: linear-gradient(#efdede, rgb(239, 234, 234),white);
+  font-family: Arial, sans-serif;
+  color: #333333;
+}
+
+/* Définir le style de la navigation et des liens */
+nav {
+  background-color: #333333;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 58px;
+}
+
+nav h1{
+  margin: 0;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  border-radius: 4px;
+}
+
+nav li {
+  margin-right: 30px;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #FFFFFF;
+  color: #333333;
+}
+
+/* Ajouter un style à l'image principale */
+.formimage {
+ background-image: url("senegal.png");
+background-repeat: no-repeat;
+ background-size: cover;
+padding:50px;
+height: 700px ;
+border: 0 auto;
+}
+
+/* Ajouter un style au formulaire */
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+ 
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: none;
+}
+.form {margin: 0 auto;}
+.formulaire{height: 80px;}
+
+.btn {
+  background-color: #3D84A8;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #306B8F;
+  color: black;
+}
+
+.discovery {
+  text-align: center;
+}
+/* Ajouter un style aux images de la section suivante */
+.image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  box-shadow: 20px 10px 20px;
+}
+
+.image figure {
+  margin: 0 auto;
+  text-align: center;
+  width: 75%;
+}
+
+figure:hover img {
+  transform: scale(1.1);
+}
+
+.image figure img {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.image figcaption {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Ajouter un style au pied de page */
+footer {
+  background-color: #333333;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+footer p{
+  margin: 0;
+  font-size: 15px;
+}
+p{
+  font-size:20px;
+  
+}
+section.senegal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  float: right;
+  margin-left: 20px;
+
+}
+
+section.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section.image {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.image figure {
+  flex-basis: calc(100% / 5);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+section.image img {
+  width: 80%;
+  height: 200px;
+  border-radius: 4px;
+}
+.logo {
+  text-align: center;
+  text-shadow: 20px 20px 10px rgb(186, 203, 206);
+}
